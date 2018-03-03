@@ -24,6 +24,9 @@ LOCAL_PATH := device/samsung/on7xelte
 # inherit the splitted configs
 -include $(LOCAL_PATH)/board/*.mk
 
+# Hidl
+DEVICE_MANIFEST_FILE := device/samsung/a3y17lte/manifest.xml
+
 # SELinux
 BOARD_SEPOLICY_DIRS += device/samsung/on7xelte/sepolicy
 
