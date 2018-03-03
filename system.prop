@@ -29,3 +29,7 @@ ro.hwui.text_large_cache_height=1024
 
 # Sdcardfs
 ro.sys.sdcardfs=false
+
+# Nfc
+ro.nfc.port="I2C"
+ro.nfc.sec_hal=true
